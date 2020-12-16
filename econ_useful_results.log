@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.11)  15 DEC 2020 21:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.11)  16 DEC 2020 14:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -280,7 +280,7 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count278
 \l__pdf_internal_box=\box54
 )
-No file econ_useful_results.aux.
+(./econ_useful_results.aux)
 \openout1 = `econ_useful_results.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -297,6 +297,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -388,9 +389,9 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 (./econ_useful_results.aux) ) 
 Here is how much of TeX's memory you used:
- 5776 strings out of 481278
- 87663 string characters out of 5915806
- 378869 words of memory out of 5000000
+ 5778 strings out of 481278
+ 87711 string characters out of 5915806
+ 378860 words of memory out of 5000000
  22539 multiletter control sequences out of 15000+600000
  418099 words of font info for 83 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -405,7 +406,7 @@ sfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb>
-Output written on econ_useful_results.pdf (3 pages, 87483 bytes).
+Output written on econ_useful_results.pdf (3 pages, 87492 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
