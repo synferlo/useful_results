@@ -494,9 +494,96 @@ In general,
 
 
 
+\section{Hotelling's lemma}
+
+Profit function $ \pi  $ is differentiable in $ (p, \bm{w}) $, and we have
+\begin{align}
+				\frac{\partial \pi  }{\partial p } &= y(p, \bm{w})\\
+				\frac{-\partial \pi  }{\partial w_{i} } &= x_{i}(p, \bm{w})
+\end{align}
+where $ \pi  = \pi (p,\bm{w}) $, $ \bm{w} $ is a vector.
+
+Proof for equation (66)
+
+We have profit function 
+\begin{align}
+				\pi ^{*} &= pf(x_1^{*},\cdots, x_{n}^{*}) - \sum\limits_{i = 1} ^n
+				w_{i}x_{i}^{*}(p, \bm{w}).
+\end{align}
+Differentiate $ \pi  $ w.r.t. $ p $,
+\begin{align}
+				\frac{\partial \pi ^{*} }{\partial p } &= 
+				f(x_1^{*},\cdots,x_{n}^{*}) + p \left( 
+				\sum\limits_{i = 1} ^n f_{i} \frac{\partial x_{i}^{*} }{\partial p }
+        \right)  - \left( 
+        \sum\limits_{i = 1} ^n w_{i}\frac{\partial x_{i}^{*} }{\partial p }
+        \right)\\
+				 &= f(x_1^{*},\cdots,x_{n}^{*}) + \sum\limits_{i = 1} ^n
+				 (pf_{i} - w_i)\frac{\partial x_{i}^{*} }{\partial p }\\
+				 &= f(x_1^{*},\cdots,x_{n}^{*})\\
+				 &= y(p, \bm{w})
+\end{align}
 
 
 
+Proof for equation (67)
+
+
+\begin{align}
+				\pi ^{*} &= pf(x_1^{*},\cdots,x_{n}^{*}) - \sum\limits_{i = 1} ^n
+				w_{i}x_{i}^{*}\\
+				\frac{\partial \pi ^{*} }{\partial w_{j} }
+				 &= p \left( \sum\limits_{i = 1} ^n f_{i}
+				 \frac{\partial x_{i}^{*} }{\partial w_{j} }\right)  - 
+				x_{j}^{*} - \left( \sum\limits_{i = 1} ^n w_{i}
+				\frac{\partial x_{i}^{*} }{\partial w_{j}  }\right) \\
+				 &=  - x_{j}^{*}
+\end{align}
+
+
+
+
+
+\section{Unconditional factor demand}
+
+Two factor $ x_1, x_2 $, production function $ f(x_1,x_2) = x_1^{\alpha }
+x_2^{\beta }$, write down profit function,
+\begin{equation}
+				\pi = px_1^{\alpha }x_2^{\beta } - w_1x_1 - w_2x_2
+\end{equation}
+
+FOC:
+\begin{align}
+				\pi_1 &= p \alpha x_1^{\alpha  - 1}x_2^{\beta } - w_1 = 0\\
+				\pi_2 &= p \beta x_1^{\alpha }x_2^{\beta  - 1} - w_2 = 0\\
+				x_2 &= \frac{w_1}{w_2}\frac{\beta}{\alpha }x_1
+\end{align}
+substitute (79) to (77)
+\begin{equation}
+				x_1^{*} = p^{\frac{1}{1 - \alpha  - \beta }}\alpha ^{\frac{1 - \beta }{
+				1 - \alpha  - \beta }}w_1^{\frac{\beta  - 1}{1 - \alpha  - \beta }}
+				w_2^{-\frac{\beta}{1 - \alpha  - \beta }}\beta ^{\frac{\beta}{1 -
+				\alpha  - \beta }}
+\end{equation}
+
+Unconditional factor demand is homogenous of degree 0 in $ \bm{w} $ and $ p $,
+\begin{align}
+				x_1^{*}(s \bm{w},sp) &= 
+				s^{\frac{1}{1 - \alpha  - \beta } + \frac{\beta  - 1}{1 - \alpha  - 
+				\beta }  -\frac{\beta}{1 - \alpha  - \beta }}x_1^{*}\\
+				 &= s^{0}x_1^{*}\\
+				 &= x_1^{*}
+\end{align}
+
+Envoke Euler thm,
+
+\begin{align}
+				\frac{\partial x_{i}^{*} }{\partial p }p 
+				+ \sum\limits_{j = 1} ^n \frac{\partial x_{i}^{*} }{\partial w_{j} }w_{j}
+				=0\\
+				\varepsilon _{i,p}^{product} + \sum\limits_{j} \varepsilon _{i,j}^{
+				factor} = 0
+\end{align}
 
 
 
